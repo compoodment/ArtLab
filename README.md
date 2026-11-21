@@ -41,6 +41,9 @@ This repository holds ArtLab's downloads, its licence and its issue tracker. Art
 The installer adds the app icon and registers `.artlab` projects with the file manager. HEIC import requires
 the optional `libheif1` package at version 1.23.6 or later in the 1.x series, with an HEVC decoder.
 
+To remove ArtLab, remove it in your software installer or run `sudo apt remove artlab`. Your projects and exports
+stay in your folders.
+
 ## Licence
 
 ArtLab is free to use under the [ArtLab Alpha Licence](LICENSE). Get it only from this repository's releases or
